@@ -2,8 +2,8 @@ class Paper {
     constructor(x,y,radius) {
       var options = {
           isStatic: false,
-          friction:1.2,
-          density:1.2 
+          friction:1.5,
+          density:1.0   
       }
       this.body = Bodies.circle(x,y,radius,options);
       this.width = radius*2;
